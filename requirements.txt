@@ -1,2 +1,6 @@
 jupyter-book
 sphinx-tags
+sphinx-multiversion
+sphinx-book-theme>=0.1.0
+myst-nb
+sphinx-external-toc
