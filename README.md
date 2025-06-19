@@ -8,7 +8,7 @@ If you are looking to read the book please visit https://discover-cookbook.numfo
 
 ## Ways to contribute to this repository
 
-The original body of work took place at a series of unconferences and various spurts of energy, today the DISCOVER-cookbook is a living project with numerous contributors. Because it is code to produce a book rather than code for a software library or application, it has different needs than typical open source software systems. Because of these unique needs, we separate various types of contributions:
+The original body of work took place at a series of unconferences and various spurts of energy, today the DISCOVER-cookbook is a living project with numerous contributors. Because it is code to produce a book rather than code for a software library or application, it has different needs  than typical open source software systems. Because of these unique needs, we separate various types of contributions:
 
 ### Ideas, Questions, and Discussions
 
