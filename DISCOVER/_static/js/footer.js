@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <img src="_static/images/Numfocus-logo-dark.png" alt="NumFOCUS" class="numfocus-logo light-mode-only">
           <img src="_static/images/Numfocus-logo-light.png" alt="NumFOCUS" class="numfocus-logo dark-mode-only">
         </a>
+        
       </div>
 
       <div class="footer-links">
