@@ -36,6 +36,8 @@ What to ask on your registration form (and what not to ask)
 
 ## Code of Conduct
 
+
+
 - 🍎 Show the text of the Code of Conduct and a required check-box that the registrant has read it and agrees to abide by it.
 
 ## T-Shirts
