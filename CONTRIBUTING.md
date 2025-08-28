@@ -9,6 +9,7 @@ NumFOCUS invites the community to make suggestions for improvements to the DISCO
   - [Ideas, Questions, and Discussions](#ideas-questions-and-discussions)
   - [Problems or Issues](#problems-or-issues)
   - [Content and Design](#content-and-design)
+ 
   - [Bug Fixes](#bug-fixes)
 - [Pull Request Guidelines](#pull-request-guidelines)
 - [Commit Messages](#commit-messages)
