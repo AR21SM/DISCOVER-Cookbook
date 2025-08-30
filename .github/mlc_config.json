@@ -2,6 +2,9 @@
   "ignorePatterns": [
     {
       "pattern": "^\\.git/"
+    },
+    {
+      "pattern": "^http://localhost"
     }
   ],
   "httpHeaders": [
@@ -12,9 +15,9 @@
       }
     }
   ],
-  "timeout": "20s",
+  "timeout": "40s",
   "retryOn429": true,
   "aliveStatusCodes": [200, 206, 403, 429],
-  "retryCount": 3,
+  "retryCount": 5,
   "fallbackRetryDelay": "10s"
 }
