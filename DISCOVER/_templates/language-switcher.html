@@ -1,3 +1,18 @@
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const pagename = "{{ pagename }}";
+    
+    if (pagename) {
+      const versionLinks = document.querySelectorAll('.version-switcher__menu a');
+      
+      versionLinks.forEach(link => {
+        const baseUrl = link.href;
+        link.href = `${baseUrl}${pagename}.html`;
+      });
+    }
+  });
+</script>
+
 <div class="dropdown">
   <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" id="language-switcher-button"
     data-bs-toggle="dropdown" aria-expanded="false">
