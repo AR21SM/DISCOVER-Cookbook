@@ -6,7 +6,7 @@ version = os.environ.get("WEBSITE_VERSION", "dev")
 release = version
 language = os.environ.get("WEBSITE_LANGUAGE", "en")
 
-baseurl = 'https://discover-cookbook.numfocus.org'
+baseurl = 'https://ar21sm.github.io/DISCOVER-Cookbook'
 
 # Load language data from languages.json
 language_json_path = os.path.join(os.path.dirname(__file__), '_static', 'languages.json')
