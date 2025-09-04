@@ -1,0 +1,20 @@
+[
+    {
+        "version": "dev", 
+        "url": "https://ar21sm.github.io/DISCOVER-Cookbook/dev/"
+    },
+    {
+        "version": "3.0",
+        "url": "https://ar21sm.github.io/DISCOVER-Cookbook/3.0/"
+    },
+    {
+        "version": "2.0",
+        "url": "https://ar21sm.github.io/DISCOVER-Cookbook/2.0/",
+        "preferred": true
+    },
+    {
+        "version": "1.0",
+        "url": "https://ar21sm.github.io/DISCOVER-Cookbook/1.0/"
+    }
+ 
+]
