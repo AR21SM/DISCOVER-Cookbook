@@ -12,6 +12,7 @@ baseurl = 'https://discover-cookbook.numfocus.org'
 language_json_path = os.path.join(os.path.dirname(__file__), '_static', 'languages.json')
 language_data = []
 current_language_name = None
+
 if os.path.exists(language_json_path):
     with open(language_json_path, 'r', encoding='utf-8') as f:
         all_languages = json.load(f)
