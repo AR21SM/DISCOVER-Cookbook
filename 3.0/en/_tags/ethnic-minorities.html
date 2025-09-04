@@ -423,14 +423,20 @@ document.write(`
         <div class="header-article-item"><script>
   document.addEventListener('DOMContentLoaded', () => {
     const pagename = "_tags/ethnic-minorities";
-    
-    if (pagename) {
-      const versionLinks = document.querySelectorAll('.version-switcher__menu a');
-      
-      versionLinks.forEach(link => {
-        const baseUrl = link.href;
-        link.href = `${baseUrl}${pagename}.html`;
-      });
+    const language = "en";
+
+    if (pagename && language) {
+      const switcher = document.querySelector('.version-switcher');
+      if (switcher) {
+        const links = switcher.querySelectorAll('a');
+        links.forEach(link => {
+          const versionBaseUrl = link.getAttribute('href');
+          if (versionBaseUrl) {
+            const newHref = `${versionBaseUrl}${language}/${pagename}.html`;
+            link.setAttribute('href', newHref);
+          }
+        });
+      }
     }
   });
 </script>
@@ -447,6 +453,38 @@ document.write(`
             href="https://ar21sm.github.io/DISCOVER-Cookbook/3.0/en/_tags/ethnic-minorities.html"
             dir="ltr">
             English
+          </a>
+        </li>
+    
+        <li>
+          <a class="dropdown-item" 
+            href="https://ar21sm.github.io/DISCOVER-Cookbook/3.0/es/_tags/ethnic-minorities.html"
+            dir="ltr">
+            Español
+          </a>
+        </li>
+    
+        <li>
+          <a class="dropdown-item" 
+            href="https://ar21sm.github.io/DISCOVER-Cookbook/3.0/fr/_tags/ethnic-minorities.html"
+            dir="ltr">
+            Français
+          </a>
+        </li>
+    
+        <li>
+          <a class="dropdown-item" 
+            href="https://ar21sm.github.io/DISCOVER-Cookbook/3.0/de/_tags/ethnic-minorities.html"
+            dir="ltr">
+            Deutsch
+          </a>
+        </li>
+    
+        <li>
+          <a class="dropdown-item" 
+            href="https://ar21sm.github.io/DISCOVER-Cookbook/3.0/hi/_tags/ethnic-minorities.html"
+            dir="ltr">
+            हिन्दी
           </a>
         </li>
     
