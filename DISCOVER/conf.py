@@ -81,7 +81,7 @@ html_theme_options = {
 
     # Version switcher config
     "switcher": {
-        "json_url": "https://discover-cookbook.numfocus.org/versions.json", 
+        "json_url": "https://ar21sm.github.io/DISCOVER-Cookbook/versions.json", 
         "version_match": version,
     },
 }
