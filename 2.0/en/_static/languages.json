@@ -7,8 +7,17 @@
     {
         "code": "es",
         "name_local": "Español",
-        "direction": "ltr",
-        "hidden": true
+        "direction": "ltr"
+    },
+    {
+        "code": "fr",
+        "name_local": "Français",
+        "direction": "ltr"
+    },
+    {
+        "code": "de",
+        "name_local": "Deutsch",
+        "direction": "ltr"
     }
    
 ]
