@@ -424,14 +424,20 @@ document.write(`
         <div class="header-article-item"><script>
   document.addEventListener('DOMContentLoaded', () => {
     const pagename = "_tags/global-south-and-developing-countries";
-    
-    if (pagename) {
-      const versionLinks = document.querySelectorAll('.version-switcher__menu a');
-      
-      versionLinks.forEach(link => {
-        const baseUrl = link.href;
-        link.href = `${baseUrl}${pagename}.html`;
-      });
+    const language = "es";
+
+    if (pagename && language) {
+      const switcher = document.querySelector('.version-switcher');
+      if (switcher) {
+        const links = switcher.querySelectorAll('a');
+        links.forEach(link => {
+          const versionBaseUrl = link.getAttribute('href');
+          if (versionBaseUrl) {
+            const newHref = `${versionBaseUrl}${language}/${pagename}.html`;
+            link.setAttribute('href', newHref);
+          }
+        });
+      }
     }
   });
 </script>
