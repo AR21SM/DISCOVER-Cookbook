@@ -1,0 +1,28 @@
+[
+    {
+        "code": "en",
+        "name_local": "English",
+        "direction": "ltr"
+    },
+    {
+        "code": "es",
+        "name_local": "Español",
+        "direction": "ltr"
+    },
+    {
+        "code": "fr",
+        "name_local": "Français",
+        "direction": "ltr"
+    },
+    {
+        "code": "de",
+        "name_local": "Deutsch",
+        "direction": "ltr"
+    },
+    {
+        "code": "hi",
+        "name_local": "हिन्दी",
+        "direction": "ltr"
+    }
+   
+]
