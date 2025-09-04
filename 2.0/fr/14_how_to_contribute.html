@@ -424,14 +424,20 @@ document.write(`
         <div class="header-article-item"><script>
   document.addEventListener('DOMContentLoaded', () => {
     const pagename = "14_how_to_contribute";
-    
-    if (pagename) {
-      const versionLinks = document.querySelectorAll('.version-switcher__menu a');
-      
-      versionLinks.forEach(link => {
-        const baseUrl = link.href;
-        link.href = `${baseUrl}${pagename}.html`;
-      });
+    const language = "fr";
+
+    if (pagename && language) {
+      const switcher = document.querySelector('.version-switcher');
+      if (switcher) {
+        const links = switcher.querySelectorAll('a');
+        links.forEach(link => {
+          const versionBaseUrl = link.getAttribute('href');
+          if (versionBaseUrl) {
+            const newHref = `${versionBaseUrl}${language}/${pagename}.html`;
+            link.setAttribute('href', newHref);
+          }
+        });
+      }
     }
   });
 </script>
